@@ -223,12 +223,12 @@ $(document).ready(function () {
 
     });
 
-    $('.footer_item ul').slideUp();
+    // $('.footer_item ul').slideUp();
 
-    $('.footer_item h3').click(function (e) {
-        e.preventDefault();
-        $(this).siblings('ul').slideToggle();
-    });
+    // $('.footer_item h3').click(function (e) {
+    //     e.preventDefault();
+    //     $(this).siblings('ul').slideToggle();
+    // });
     
     $('.mobile_menu ul li ul').slideUp();
     $('.mobile_menu ul li span').click(function (e) {
